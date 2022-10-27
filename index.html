@@ -14,19 +14,35 @@
     body {
         font-size: 48px;
     }
-    dt, td {
+
+    @media only screen and (max-width: 800px) {
+      body {
         font-size: 32px;
+        }
+
+        .pic{
+        width: 200px; 
+    }
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    
+    dt, td {
+        font-size: 0.6em;
         color: #666;
         
     }
     dt {
-        padding-top: 40px;
+        padding-top: 1em;
     }
     td {
-        padding: 80px 40px;
+        padding: 2em 1em;
     }
     cite {
-        font-size: 48px;
+        font-size: 1em;
         display: block;
         color: #000;
     }
@@ -56,7 +72,7 @@
 
 
 
-<h1 style="font-size: 100px">Hi. I&#39;m Sophia, the gray cat.</h1>
+<h1>Hi. I&#39;m Sophia, the gray cat.</h1>
 <img src="sophia-8.jpg" style="width: 400px;" class="center" alt="sophia thinking" />
 
 <p>
