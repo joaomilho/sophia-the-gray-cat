@@ -14,16 +14,11 @@
     body {
         font-size: 48px;
     }
-
-    @media only screen and (max-width: 800px) {
-      body {
-        font-size: 32px;
-        }
-
-        .pic{
-        width: 200px; 
+    
+    .pic{
+        width: 400px; 
     }
-    }
+
 
     h1 {
         font-size: 2em;
@@ -47,10 +42,16 @@
         color: #000;
     }
     .center{
-        display: block; margin-left: auto; margin-right: auto;
+        display: block; margin: auto;
     }
-    .pic{
-        width: 400px; 
+    @media only screen and (max-width: 800px) {
+      body {
+        font-size: 32px;
+        }
+
+        .pic{
+        width: 200px; 
+    }
     }
   </style>
 </head>
